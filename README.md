@@ -1,0 +1,1 @@
+[https://yok029.github.io/Lab2/](https://yok029.github.io/Lab2/)
