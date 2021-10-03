@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Younghoon Team Project Brainstorm</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header></header>
+    <div>Team Project</div>
+
+    <nav>
+      <ul>
+        <li><a href="https://github.com/yok029/Lab2">Link to github</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1><em>Comprehensive Meeting Minutes</em></h1>
+      <h4>Date:10/03/2021</h4>
+      <img
+        src="https://boostlabs.com/wp-content/uploads/2019/09/10-types-of-data-visualization-1.jpg"
+        alt="diagram"
+        width="550"
+      />
+
+      <h2 id="Introduction">Checklist</h2>
+      <ol>
+        <li><input type="checkbox" />Attend the meeting</li>
+        <li><input type="checkbox" />Watch the videos</li>
+        <li><input type="checkbox" />Summarize it</li>
+      </ol>
+      <h2 id="Introduction">Attendace List</h2>
+      <ol>
+        <li><input type="checkbox" />Younghoon Kim</li>
+        <li><input type="checkbox" />John Doe</li>
+        <li><input type="checkbox" />Joanne Doe</li>
+      </ol>
+      <section>
+        <h2 id="steps">Summary</h2>
+        <details>
+          <summary>Important meeting</summary>
+          <audio controls>
+            <source src="record.mp3" type="audio/mpeg" />
+
+            play it
+          </audio>
+          <video width="320" height="240" controls>
+            <source src="video.mp4" type="video/mp4" />
+            play that
+          </video>
+          <p>
+            <b>
+              You have missed the meeting. We will provide you with the
+              important<br />
+              information that was discussed during the meeting so that you can
+              easily<br />
+              catch up
+            </b>
+          </p>
+        </details>
+      </section>
+
+      <section>
+        <h2>Goal</h2>
+        <p>
+          <strong>
+            Our Stakeholders have provided that we need a data visualization app
+            by <br />
+            11/09/21. Watch the video and submit a data analysis report on the
+            data <br />
+          </strong>
+        </p>
+        <label for="Data">Choose your datafile the list:</label>
+        <input list="Data" name="Data" id="Data" />
+        <datalist id="Data">
+          <option value="Edge"></option>
+          <option value="Firefox"></option>
+          <option value="Chrome"></option>
+          <option value="Opera"></option>
+          <option value="Safari"></option>
+        </datalist>
+
+        <label for="data">Identify the data:</label>
+
+        <select name="data" id="data">
+          <option value="Econometrics">Economy</option>
+          <option value="Climate">Global Warming</option>
+          <option value="Employment">Jobs</option>
+          <option value="Software">Amazon</option>
+        </select>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <h6 id="finish">finish</h6>
+      <form onsubmit="{'finished'}">
+        <input type="text" placeholder="Enter Email Address" />
+        <button><i>Submit</i></button>
+      </form>
+      <fieldset>
+        <legend>Notes:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br /><br />
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" /><br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+      <br />
+      <div>&copy; find me at https://github.com/yok029</div>
+      <textarea id="meeting" name="review" rows="4" cols="50">
+                At this website you learn how to make meeting minutes
+                </textarea
+      >
+    </footer>
+  </body>
+</html>
