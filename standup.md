@@ -14,4 +14,6 @@ Keep track of the board to follow up with the teammates
 
 **Remote optional**-
 Due to Covid, stand ups can now be done virtually if needed
+
+Options are available
  
