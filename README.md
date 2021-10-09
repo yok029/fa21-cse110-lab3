@@ -1,1 +1,1 @@
-[https://yok029.github.io/Lab2/](https://yok029.github.io/Lab2/)
+[https://yok029.github.io/fa21-cse110-lab3/](https://yok029.github.io/fa21-cse110-lab3/)
