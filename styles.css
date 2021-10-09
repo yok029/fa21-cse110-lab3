@@ -1,0 +1,154 @@
+html {
+    font-family: "myFont", "Bitstream Vera Serif", serif;
+  }
+  a[href^="#"] {
+    background-color: gold;
+  }
+body {
+  background-color: lightblue;
+  display: grid;
+}
+/* h1 selector*/
+h1 {
+  color: navy;
+  margin-bottom: 5em;
+  
+}
+h2 {
+  color: rgb(0, 0, 0);
+  display: inline
+ 
+}
+h4 {
+  color: hsl(46, 65, 52);
+  margin-right: 200px;
+}
+p {
+  color: #e02401;
+  margin-left: 3rem;
+}
+p {
+  margin: 25px 50px 75px 100px;
+}
+*{
+    margin-left:0.1rem;
+}
+img {
+  padding-top: 3cm;
+  padding-right: 3cm;
+  padding-bottom: 3cm;
+   max-width: 600px;
+  min-width:40px;
+  display: inline-grid;
+  grid-area: footer;
+
+}
+video {
+  padding-left: 5cm;
+  border-width:1px;
+  border-radius:1px;
+  border-color: yellow
+}
+h6,p {
+  color: #e02401;
+  
+  margin-top: 3vw;
+}
+span,
+div {
+  text-align:center;
+}
+fieldset ~div{
+    color: red;
+}
+div+h3{
+    font-weight: bold;
+}
+h1.webtitle{
+    color:violet !important;
+}
+audio {
+    border: 1px solid black;
+
+  width: 350px;
+  height: 105px;
+  max-width: 600px;
+  min-width:40px;
+  margin: 10px;
+  padding: 0.5px 1px 1px 0.5px;
+  border: 6px solid black;
+}
+span{
+    text-decoration: underline;
+}
+.last{
+    text-align: center;
+    display:flex;
+    flex-grow: 4;
+    flex-shrink: 3;
+
+  
+}
+.first {
+    display: inline-block;
+    position:fixed;
+  }
+  #checklist{
+      position:relative;
+  }
+  button:hover {
+    color: blue;
+  }
+  button:active{
+    color: red;
+  }
+  body {
+    margin: 40px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+ 
+    color: #444;
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  li {
+    list-style-type: disc;
+  }
+  
+  li li {
+    list-style-type: circle;
+  }
+  span {
+    background-color: aqua;
+  }
+  
+  div > span {
+    background-color: DodgerBlue;
+  }
+  p ~ span {
+    color: blueviolet;
+  }

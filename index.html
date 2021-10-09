@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="styles.css">
     <title>Younghoon Team Project Brainstorm</title>
     <meta charset="UTF-8" />
   </head>
   <body>
     <header></header>
-    <div>Team Project</div>
+    <div class="first">Team Project</div>
 
     <nav>
       <ul>
@@ -14,7 +15,7 @@
       </ul>
     </nav>
     <main>
-      <h1><em>Comprehensive Meeting Minutes</em></h1>
+      <h1 class="webtitle"><em>Comprehensive Meeting Minutes</em></h1>
       <h4>Date:10/03/2021</h4>
       <img
         src="https://boostlabs.com/wp-content/uploads/2019/09/10-types-of-data-visualization-1.jpg"
@@ -34,10 +35,49 @@
         <li><input type="checkbox" />John Doe</li>
         <li><input type="checkbox" />Joanne Doe</li>
       </ol>
+      <div class="wrapper">
+        <div class="box January">January</div>
+        <div class="box February">February</div>
+        <div class="box March">March</div>
+        <div class="box April">April</div>
+        <div class="box May">May</div>
+        <div class="box June">June</div>
+        <div class="flex-container">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <h3>last number!</h3>
+          <div>6</div>
+        </div>
+      </div>
       <section>
         <h2 id="steps">Summary</h2>
         <details>
           <summary>Important meeting</summary>
+          <ul>
+            <li>
+              <div>Meeting with stakeholders</div>
+              <ul>
+                <li>data analysis</li>
+                <li>product deadline</li>
+              </ul>
+            </li>
+            <li>
+              <div>meeting with managers</div>
+              <ul>
+                <li>code review</li>
+                <li>feedback</li>
+              </ul>
+            </li>
+          </ul>
+          <div>
+            <span>Meet the manager.
+              <span>receive feed back</span>
+            </span>
+          </div>
+          <span>end the meeting</span>
           <audio controls>
             <source src="record.mp3" type="audio/mpeg" />
 
@@ -109,7 +149,10 @@
         <input type="submit" value="Submit" />
       </fieldset>
       <br />
-      <div>&copy; find me at https://github.com/yok029</div>
+      <div class="last">&copy; find <span>me</span> at https://github.com/yok029</div>
+      <ul>
+        <li><a href="#internal">Internal link</a></li>
+        <ul>
       <textarea id="meeting" name="review" rows="4" cols="50">
                 At this website you learn how to make meeting minutes
                 </textarea
